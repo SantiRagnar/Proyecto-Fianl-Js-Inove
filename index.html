@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WikiRick</title>
+	<link rel="stylesheet" href="../assets/styles/navBar.css">
+	<link rel="stylesheet" href="../assets/styles/app.css">
+	<link rel="stylesheet" href="../assets/styles/card.css">
+	<link rel="stylesheet" href="../assets/styles/cardLocalidad.css">
+	<link rel="stylesheet" href="../assets/styles/cardEpisodio.css">
+</head>
+
+<body>
+	<header>
+		<nav class="cont-navBar">
+			<div class="cont-logo" onclick="inicio()">
+				<img src="/assets/img/foto-header-removebg-preview (1).png" />
+			</div>
+			<ul>
+				<li class="personajes"><a>Personajes</a></li>
+				<li class="localidades"><a>Localidades</a></li>
+				<li class="episodios"><a>Episodios</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	
+
+	<!-- <section id="login">
+		<p>Ingrese el personaje que desea consultar:</p>
+		<input id="personaje" type="text" value="" placeholder="personaje">
+		<button id="btnConsultar">Consultar</button>
+	</section> -->
+	<!-- <div class='cont-buscador'>
+		<input type="text" class="buscador" />
+	</div> -->
+	<div id="resultados">
+	</div>
+	<div id="resultadosLoc">
+	</div>
+	<div id="resultadosEpi">
+	</div>
+	<div id="resultadosPaginas">
+	</div>
+	<div class="paginacion">
+		<button id="anterior" disabled>Anterior</button>
+		<button id="siguiente" disabled>Siguiente</button>
+	</div>
+	<script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>

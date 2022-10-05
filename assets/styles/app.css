@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: get_schwifty;
+  src: url('../../assets/img/get_schwifty.ttf');
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 8px;
+  height: 8px;
+  background-color: #94ea46;
+  border-radius: 8px;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  background-color: #fff;
+  background-image: url('../img/portal2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#resultados {
+  background-color: #fff;
+  padding-top: 16px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#resultadosLoc {
+  background-color: #fff;
+  padding-top: 16px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#resultadosEpi {
+  background-color: #fff;
+  padding-top: 16px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#resultadosPaginas{
+  background-color: #fff;
+  padding-top: 16px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.deshabilitar {
+  display: none !important;
+}
+
+.paginacion{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.paginacion button{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 100px;
+  height: 35px;
+  transition: all 0.2s ease-in-out;
+}
+
+.paginacion button:hover{
+  background-color: #e0e0e0;
+}
+
+
+.paginacion button:disabled{
+  opacity: 0;
+}
